@@ -1,5 +1,5 @@
 .App {
-  max-width: 860px;
+  max-width: 350px;
   margin: 40px auto;
 }
 button {
@@ -21,5 +21,19 @@ button:hover {
   margin-top: 40px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-gap: 20px;
+  grid-gap: 10px;
+}
+
+@media only screen and (min-width: 586px) {
+  .App {
+    max-width: 550px;
+    margin: 40px auto;
+  }
+
+  .card-grid{
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+  }
 }
