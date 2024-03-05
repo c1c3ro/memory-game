@@ -4,7 +4,7 @@ import SingleCard from './components/SingleCard';
 
 const cardImages = [
   { "src": "/img/logo-c-1.png", matched: false},
-  { "src": "/img/logo-c++-1.png", matched: false},
+  { "src": "/img/logo-c++-1.jpg", matched: false},
   { "src": "/img/logo-java-1.png", matched: false},
   { "src": "/img/logo-js-1.jpg", matched: false},
   { "src": "/img/logo-kotlin-1.png", matched: false},
